@@ -1,11 +1,12 @@
 version: "2"
 services:
     courses-ms:
-        image: aabarretoc/laboratoriosmesa9_courses-ms:v1
+        build: .
         ports:
             - "3000:3000"
         depends_on:
             - courses-db
+
     courses-db:
         image: mysql:5.7
         environment:
