@@ -1,7 +1,7 @@
 version: "2"
 services:
     courses-ms:
-        build: .
+        image: aabarretoc/laboratoriosmesa9_courses-ms:v1
         ports:
             - "3000:3000"
         depends_on:
