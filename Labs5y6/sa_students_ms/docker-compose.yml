@@ -1,4 +1,4 @@
-version: "2.1"
+version: "2"
 services:
   students-ms:
     container_name: students-ms
